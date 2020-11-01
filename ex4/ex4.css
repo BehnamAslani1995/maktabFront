@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Yekan;
+    src: url("Yekan.woff");
+
+}
+
+* {
+    font-family: Yekan, serif;
+}
+
+body {
+    background: url("bg.jpg") no-repeat;
+    background-size: cover;
+    padding: 0 30vw;
+}
+
+.continer {
+    margin-top: 150px;
+
+
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+
+}
+
+h1 {
+    font-size: 3em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 280px;
+    justify-content: space-between;
+    margin-right: 50%;
+    transform: translateX(50%);
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    direction: ltr;
+    padding-left: 30px;
+}
+
+input::placeholder {
+    color: white;
+    direction: rtl;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background: #1d88e3;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+label {
+    position: relative;
+    transform: translateX(-260px) translateY(-35px);
+}
+
+a, #i3 {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+
+}
+
+a {
+    margin-right: 25px;
+
+}
+
+a:hover {
+    color: #1d88e3;
+}
